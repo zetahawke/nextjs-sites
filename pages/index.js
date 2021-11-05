@@ -23,8 +23,14 @@ export default function Home({ miniSites }) {
       <Head>
         <title>Mini Sites</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        />
+        <link rel="stylesheet" href="/assets/css/carousel.css" />
       </Head>
       <MainContainer></MainContainer>
+      {/* <script src="/assets/js/carousel.js"></script> */}
     </div>
   );
 }

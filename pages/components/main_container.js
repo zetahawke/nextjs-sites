@@ -1,4 +1,6 @@
-const MainContainer = ({ children }) => {
+import Carousel from "./carousel";
+
+const MainContainer = () => {
   return (
     <main className="lg:container lg:mx-auto lg:px-120 text-left">
       <h1 className="text-3xl font-bold">
@@ -7,7 +9,7 @@ const MainContainer = ({ children }) => {
         </a>
         front based site
       </h1>
-      {...children}
+      <Carousel></Carousel>
     </main>
   );
 };
