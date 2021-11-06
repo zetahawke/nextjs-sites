@@ -1,13 +1,18 @@
+import Banner from "./banner";
 import Carousel from "./carousel/carousel_holder";
 
 const MainContainer = () => {
   return (
     <main className="lg:container lg:mx-auto lg:px-120 text-left">
       <h1 className="text-3xl font-bold">
-        <a className="text-blue-600" href="https://nextjs.org">
+        {/* <a className="text-blue-600" href="https://nextjs.org">
           Next js{" "}
         </a>
-        front based site
+        front based site */}
+      </h1>
+      <Banner props={{}}></Banner>
+      <h1 className="text-3xl font-bold">
+        Busca por la necesidad de su piel:{" "}
       </h1>
       <Carousel props={{ items: [1, 2, 3] }}></Carousel>
     </main>
