@@ -1,6 +1,6 @@
 const Banner = ({ props }) => {
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center my-8">
       <div className="w-full">
         <img
           src="https://mdbootstrap.com/img/new/standard/city/026.jpg"

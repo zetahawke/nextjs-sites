@@ -1,6 +1,7 @@
 import Banner from "./banner";
 import Carousel from "./carousel/carousel_holder";
 import Filter from "./filter/filter_holder";
+import Divider from "./divider";
 
 const MainContainer = () => {
   return (
@@ -11,10 +12,7 @@ const MainContainer = () => {
         Busca por la necesidad de su piel:{" "}
       </h1>
       <Filter props={{ items: [1, 2, 3, 4] }}></Filter>
-      <div className="divide-y-8 my-8 divide-black divide-opacity-100">
-        <div></div>
-        <div></div>
-      </div>
+      <Divider></Divider>
       <Carousel props={{ items: [1, 2, 3] }}></Carousel>
     </main>
   );
