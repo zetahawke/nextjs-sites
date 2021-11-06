@@ -1,10 +1,13 @@
 import FilterItem from "./filter_item";
 
 const Filter = ({ props }) => {
+  let colSize = props.items.length <= 4 ? props.items.length : 4;
   return (
-    <div className="grid grid-flow-col grid-cols-4 grid-rows-1 gap-3">
+    <div className={`grid grid-cols-${colSize} gap-6`} key="filter-holder-1">
       {props.items.map((item, _index) => {
-        return <FilterItem props={props}></FilterItem>;
+        return (
+          <FilterItem props={props} key={`filter-item-${item}`}></FilterItem>
+        );
       })}
     </div>
   );

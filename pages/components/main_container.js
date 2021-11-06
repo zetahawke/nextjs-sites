@@ -5,12 +5,7 @@ import Filter from "./filter/filter_holder";
 const MainContainer = () => {
   return (
     <main className="lg:container lg:mx-auto lg:px-120 text-left">
-      <h1 className="text-3xl font-bold">
-        {/* <a className="text-blue-600" href="https://nextjs.org">
-          Next js{" "}
-        </a>
-        front based site */}
-      </h1>
+      <h1 className="text-3xl font-bold"></h1>
       <Banner props={{}}></Banner>
       <h1 className="text-3xl font-bold">
         Busca por la necesidad de su piel:{" "}
